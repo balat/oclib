@@ -1,0 +1,101 @@
+.tt-menu {
+  width: 422px;
+  margin-top: 8px;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.tt-menu h2 {
+    padding: 10px 5px 5px 5px;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: italic;
+    color: white;
+    background-color: #999;
+}
+
+.tt-suggestion:hover {
+  cursor: pointer;
+}
+.tt-suggestion.tt-cursor .search-more,
+.tt-suggestion:hover .search-more,
+.tt-suggestion.tt-cursor,
+.tt-suggestion:hover {
+  color: #323232;
+  background-color: #ffeb0e;
+}
+
+.tt-suggestion p {
+    margin: 0 0 0 3rem;
+    padding: 1rem 10px;
+    height: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tt-suggestion .bsic,
+.tt-suggestion i.fa,
+.tt-suggestion div.pic {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.tt-suggestion .bsic,
+.tt-suggestion i.fa {
+    font-size: 30px;
+    padding: 10px 0;
+    color: white;
+    background-color: #323232;
+}
+
+.tt-suggestion img {
+    position: absolute;
+    width: 3rem;
+    margin: auto;
+    top: -1000px;
+    bottom: -1000px;
+}
+.tt-suggestion .search-more {
+    padding-left: 1rem;
+    margin-left: 0;
+    background-color: #323232;
+}
+.tt-suggestion .search-more a {
+    color: white !important;
+    font-weight:bold;
+}
+.tt-suggestion.tt-cursor .search-more a,
+.tt-suggestion:hover .search-more a {
+    color: #323232 !important;
+}
+li#bs-search {
+    background-color: #666;
+    border-radius: 3px;
+    padding: 3px 15px;
+    height: 24px;
+}
+
+#bs-search span.twitter-typeahead {
+    height:16px;
+    vertical-align:middle;
+}
+
+#bs-search input {
+    background-color: transparent;
+    height:16px;
+    font-size: 12px;
+    width: 300px;
+    color: #ddd;
+    vertical-align:middle;
+    padding: 0px 0px 0px 5px;
+    border: none;
+}
